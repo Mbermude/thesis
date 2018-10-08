@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+
+{%- include head.html -%}
+
+<body>
+  {%- include header.html -%}
+  
+  {% if jekyll.environment == 'production' %}
+  
+  {% else %} 
+  <div id="sidebar">
+  {%- include sidebar.html -%}
+  </div>
+  {% endif %}
+  
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post">
+
+        <header class="post-header">
+          <h2 class="post-title">{{ page.title | escape }}</h2>
+        </header>
+
+        <div class="post-content">
+          {{ content }}
+        </div>
+
+      </article>
+
+
+    </div>
+  </main>
+<!-- 
+  {%- include footer.html -%} -->
+
+</body>
+
+</html>

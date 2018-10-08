@@ -1,3 +1,11 @@
 _site
-.sass-cache
+.DS_Store
+.jekyll
 .jekyll-metadata
+.bundle
+.sass-cache
+.idea/**/markdown-history.xml
+Gemfile
+Gemfile.lock
+node_modules
+package.json

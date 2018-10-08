@@ -1,0 +1,43 @@
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.nav').navgoco();
+	});
+</script>
+<ul class="nav">
+	
+    {% for collection in site.collections %}
+    {% unless collection.label == 'posts' %}
+
+    {% assign name = collection.label %}
+    
+    <li><a href="#">{{ name }}</a>
+        <ul>
+            {% for page in site.[name] %}
+            <li><a href="{{ page.url | prepend:site.baseurl }}">{{ page.title }} ({{page.date | date: '%B %d, %Y'}})</a></li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endunless %}
+    {% endfor %}
+
+<!-- etc... -->
+</ul>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.nav').navgoco({
+			  caretHtml: '<i class="some-random-icon-class"></i>',
+			  accordion: false,
+			  openClass: 'open',
+			  save: true,
+			  cookie: {
+				  name: 'navgoco',
+				  expires: false,
+				  path: '/'
+			  },
+			  slide: {
+				  duration: 400,
+				  easing: 'swing'
+			  }
+		  });
+	});
+</script>

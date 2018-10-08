@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "First Post"
 date:   2018-10-07 14:21:39 +0200
 ---
@@ -11,6 +11,13 @@ Hallo ich bin ***Maria***.
 - Erster Punkt
 - zweiter Punkt
 
+### Das ist ein Link
+
 [Link zu Google](google.com)
 
-![Titel]()
+### Das ist ein Foto
+![Maria](../../assets/img/maria.jpg)
+
+*Das ist kursiv*
+
+**Das ist fett**
