@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  "second Post"
-date:   2018-10-08 14:21:39 +0200
+title: "Second Post"
+date: 2018-10-07 14:21:39 +0200
 ---
 
 # Eine schöne Überschrift

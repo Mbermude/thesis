@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  "First Post"
-date:   2018-10-07 14:21:39 +0200
+title: "First Post"
+date: 2018-10-07 14:21:39 +0200
 ---
 
 # My first headline
