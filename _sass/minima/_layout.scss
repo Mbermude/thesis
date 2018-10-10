@@ -1,13 +1,23 @@
 /**
  * Site header
  */
+ $break-large: 768px;
+
 .site-header {
   // border-top: 5px solid $grey-color-dark;
-  border-bottom: 3px solid $grey-color-light;
+  
   min-height: $spacing-unit * 2.2;
-
+  font-weight: bold;
   // Positioning context for the mobile navigation icon
-  position: relative;
+  @media screen and (min-width: $break-large) {
+    position: fixed;
+    top:12rem;
+    background-color: white;
+    border-bottom: 3px solid $grey-color-light;
+  }
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
 .site-title {
@@ -27,6 +37,7 @@
 .site-nav {
   text-align: center;
   line-height: $base-line-height * $base-font-size * 2.8;
+  background-color: white;
 
   .nav-trigger {
       display: none;
@@ -178,6 +189,9 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+  position: relative;
+  top: 18rem;
+  z-index: -2;
 }
 
 .page-heading {
