@@ -329,3 +329,51 @@ a.btn-cons {
     display: none;
   }
 }
+
+.PageNavigation {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 100%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .previous {
+  text-align: right;
+  color: darkgrey;
+  font-weight: bold;
+}
+
+.PageNavigation .next {
+  text-align: right;
+  font-weight: bold;
+}
+
+.aboveheader {
+  text-align: center;
+  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(117, 69, 69);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center 
+}
+
+.aboveheader h1 {
+  font-weight: bold;
+}
+
+.aboveheader p {
+  @include relative-font-size(1.25)
+}
+

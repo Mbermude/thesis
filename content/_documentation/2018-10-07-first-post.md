@@ -16,7 +16,7 @@ Hallo ich bin ***Maria***.
 [Link zu Google](google.com)
 
 ### Das ist ein Foto
-![Maria](../../assets/img/maria.jpg)
+![Maria]({{'/assets/img/maria.jpg' | absolute_url}})
 
 *Das ist kursiv*
 

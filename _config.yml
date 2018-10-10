@@ -15,16 +15,20 @@ defaults:
     layout: "page"
 
 collections:
-- firststeps
-- secondphase
+- about
+- documentation
+- bridges
 
 collections_dir: content
 
 collections:
-  firststeps:
+  about:
     output: true
     permalink: /:collection/:title/
-  secondphase:
+  documentation:
+    output: true
+    permalink: /:collection/:title/
+  bridges:
     output: true
     permalink: /:collection/:title/
 
