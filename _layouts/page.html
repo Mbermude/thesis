@@ -32,10 +32,10 @@
 
       <div class="PageNavigation">
           {% if page.previous.url %}
-              <a class="prev" href="{{page.previous.url | absolute_url}}">Previous Post</a>
+              <a class="prev" href="{{page.previous.url | relative_url}}">Previous Post</a>
           {% endif %}
           {% if page.next.url %}
-              <a class="next" href="{{page.next.url | absolute_url}}">Next Post</a>
+              <a class="next" href="{{page.next.url | relative_url}}">Next Post</a>
           {% endif %}
       </div>
 
