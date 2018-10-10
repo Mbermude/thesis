@@ -15,16 +15,12 @@ defaults:
     layout: "page"
 
 collections:
-- about
 - documentation
 - bridges
 
 collections_dir: content
 
 collections:
-  about:
-    output: true
-    permalink: /:collection/:title/
   documentation:
     output: true
     permalink: /:collection/:title/
