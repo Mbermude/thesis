@@ -1,7 +1,18 @@
 ---
-layout: frontmatter
+layout: bridges
 title: Bridges
 permalink: /bridges/
 ---
 
-<p> pictures </p>
+{% for bridge in site.bridges %}
+<div class="col-3">
+    <div class="col-picture">
+        <div class="picture-square">
+           <a href="{{bridge.url | absolute_url}}"><img src="../assets/img/{{bridge.img-name}}" alt="{{bridge.date}}"></a>
+        </div>
+    </div>
+    <div class="col-title">
+       <a href="{{bridge.url | absolute_url}}"><h4>{{bridge.title}}</h4></a>
+    </div>
+</div>
+{% endfor %}

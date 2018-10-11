@@ -13,7 +13,7 @@
     <li><a href="#">Archive</a>
         <ul>
             {% for page in site.[name] %}
-            <li><a href="{{ page.url | prepend:site.baseurl }}">{{ page.title }} ({{page.date | date: '%B %d, %Y'}})</a></li>
+            <li><a href="{{ page.url | prepend:site.baseurl }}">{{ page.title }} <br> <small>({{page.date | date: '%B %d, %Y'}})</small></a></li>
             {% endfor %}
         </ul>
     </li>
