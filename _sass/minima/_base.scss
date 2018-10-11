@@ -322,16 +322,21 @@ a.btn-cons {
 $break-large: 768px;
 
 #sidebar {
-  position: fixed;
-  top: 20rem;
+  position: sticky;
+  top: 5rem;
   width: 17vw;
-}
-
-@media screen and (max-width: 1400px) {
-  #sidebar {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  @media screen and (max-width: 1200px) {
     display: none;
   }
 }
+
+// #sidebar.move {
+//   top: 12rem;
+// }
+
+
 
 .PageNavigation {
   display: block;
@@ -358,14 +363,18 @@ $break-large: 768px;
 }
 
 .aboveheader {
-  @media screen and (min-width: $break-large) {
-    height: 12rem;
-    position: fixed;
-  }
-  @media screen and (max-width: $break-large) {
-    position: fixed;
-    height: 18rem;
-  }
+  // @media screen and (min-width: $break-large) {
+  //   height: 14rem;
+  //   position: relative;
+  //   -webkit-transition: all 0.4s ease;
+  //  transition: all 0.4s ease;
+  // }
+  // @media screen and (max-width: $break-large) {
+  //   position: fixed;
+  //   height: 18rem;
+  // }
+  height: 18rem;
+  position: relative;
   width: 100%;
   text-align: center;
   display: flex;
@@ -377,7 +386,7 @@ $break-large: 768px;
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center 
+  background-position: center center;
 }
 
 .aboveheader h1 {
@@ -387,4 +396,10 @@ $break-large: 768px;
 .aboveheader p {
   @include relative-font-size(1.25)
 }
+
+// .aboveheader.shrink {
+//   @media screen and (min-width: $break-large) {
+//     height: 6rem;
+//   }
+// }
 
