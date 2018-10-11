@@ -415,6 +415,7 @@ $break-medium: 1000px;
     }
 
     h1 {
+      font-weight: bolder;
       @media screen and (max-width: $break-medium) { 
       font-weight: 400;
       font-size: 18px;
