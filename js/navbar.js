@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-    if ($(document).scrollTop() > 270) {
+    if ($(document).scrollTop() > 220) {
       $('.aboveheader').addClass('shrink');
       $('.site-header').addClass('move');
       $('.site-nav').addClass('move');
