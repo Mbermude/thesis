@@ -354,6 +354,9 @@ $break-large: 768px;
   width: 100%;
   float: left;
   margin: 1em 0;
+  color: black;
+  font-weight: bold;
+  font-size: $base-font-size * 1.2
 }
 
 .PageNavigation .previous {
@@ -493,4 +496,8 @@ $break-small: 400px;
   position:  relative;
   bottom:0;
   background-color: white;
+}
+
+a h4 {
+  color: black;
 }
