@@ -382,7 +382,8 @@ $break-large: 768px;
   //   height: 18rem;
   // }
   height: 18rem;
-  position: relative;
+  position: sticky;
+  top: -14rem;
   width: 100%;
   text-align: center;
   display: flex;
@@ -413,15 +414,15 @@ $break-medium: 1000px;
 $break-small: 400px;
 
 .aboveheader.shrink {
-    height: 4rem;
-    position: fixed;
-    top: 0;
-    padding-top: 6px;
+    // height: 4rem;
+    // position: absolute;
+    // top: 0;
+    // padding-top: 6px;
 
     @media screen and (min-width: $break-medium) { 
       flex-direction: row;
       justify-content: space-evenly;
-      align-items: center;
+      align-items:flex-end;
     }
 
     h1 {
