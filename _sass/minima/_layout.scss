@@ -1,14 +1,35 @@
+
 /**
  * Site header
  */
+ $break-large: 768px;
+
 .site-header {
   // border-top: 5px solid $grey-color-dark;
-  border-bottom: 3px solid $grey-color-light;
+  
   min-height: $spacing-unit * 2.2;
-
+  font-weight: bold;
   // Positioning context for the mobile navigation icon
-  position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+    background-color: white;
+    border-bottom: 3px solid $grey-color-light;
+  width: 100%;
+  -webkit-transition: all 1s ease;
+   transition: all 1s ease;
+   z-index: 3;
 }
+
+// .site-header.move {
+//   background-image:url('https://mbermude.github.io/thesis/assets/img/header.jpg');
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center top;
+// }
 
 .site-title {
   @include relative-font-size(1.625);
@@ -27,7 +48,8 @@
 .site-nav {
   text-align: center;
   line-height: $base-line-height * $base-font-size * 2.8;
-
+  background-color: white;
+  z-index: 4;
   .nav-trigger {
       display: none;
   }
@@ -45,6 +67,8 @@
       margin-right: 20px;
     }
   }
+
+
 
   @include media-query($on-palm) {
     position: absolute;
@@ -178,7 +202,12 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
-}
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  }
+
 
 .page-heading {
   @include relative-font-size(2);
