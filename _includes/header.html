@@ -20,7 +20,7 @@
         </label>
 
          <div class="trigger">
-            {% assign first_post = site.documentation.first %}
+            {% assign first_post = site.documentation.last %}
             <a class="page-link" href="{{ first_post.url | relative_url }}">Documentation</a>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
