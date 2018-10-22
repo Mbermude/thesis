@@ -354,18 +354,19 @@ $break-large: 768px;
   width: 100%;
   float: left;
   margin: 1em 0;
-  color: black;
+  color: grey;
   font-weight: bold;
   font-size: $base-font-size * 1.2
 }
 
-.PageNavigation .previous {
-  text-align: right;
-  color: darkgrey;
+.PageNavigation .prev {
+  display: inline;
+  text-align: left;
   font-weight: bold;
 }
 
 .PageNavigation .next {
+  display: inline;
   text-align: right;
   font-weight: bold;
 }
