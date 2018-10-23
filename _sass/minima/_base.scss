@@ -384,6 +384,7 @@ $break-large: 768px;
   // }
   height: 18rem;
   position: sticky;
+  position: -webkit-sticky;
   top: -14rem;
   width: 100%;
   text-align: center;
