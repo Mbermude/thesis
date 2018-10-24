@@ -36,9 +36,8 @@ collections:
 title: Thesis Documentation
 email: maria.bermudez@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hello, my name is Maria and I'm a communication design student at the University for Applied Sciences. In my Bachelor Thesis
+  I want to create bridges between cultures, especially between Mexico, Ghana and Germany. This site is meant to document my process. Have fun exploring !! 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mariabermudez.de" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
