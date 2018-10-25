@@ -1,0 +1,22 @@
+<div>
+	
+    {% for collection in site.collections %}
+    {% if collection.label == 'documentation' %}
+
+    {% assign name = collection.label %}
+	
+	<h3>Archiv</h3>
+    	<ul class="toc">
+            {% for page in site.[name] %}
+            <li>
+				<a href="{{ page.url | prepend:site.baseurl }}">
+					{{ page.title }}
+					<h6>{{page.date | date: '%B %d, %Y'}}</h6>
+				</a>
+			</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% endfor %}
+
+</div>

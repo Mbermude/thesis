@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: bridge
 title:  "Greeting"
 date:   2018-10-08 12:21:39 +0200
 img-name: greeting.jpg
