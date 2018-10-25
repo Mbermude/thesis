@@ -6,11 +6,13 @@ permalink: /bridges/
 
 {% for bridge in site.bridges %}
 <div class="col-3">
+        <a href="{{bridge.url | absolute_url}}" class="bridges-link">
     <div class="col-picture">
         <div class="picture-square">
-           <a href="{{bridge.url | absolute_url}}" class="bridges-link"><img src="../assets/img/{{bridge.img-name}}" alt="{{bridge.img-name}}"></a>
+           <img src="../assets/img/{{bridge.img-name}}" alt="{{bridge.img-name}}">
         </div>
     </div>
+</a>
     <div class="col-title">
        <a href="{{bridge.url | absolute_url}}"><h4>{{bridge.title}}</h4></a>
     </div>
