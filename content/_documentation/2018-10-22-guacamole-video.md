@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Guacamole"
+title: "Guacamole Recipe"
 date: 2018-10-22 14:21:39 +0200
 ---
 
