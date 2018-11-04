@@ -1,6 +1,6 @@
 ---
 layout: bridge
-title:  "Greeting"
+title:  "Greeting in Ghana"
 date:   2018-10-08 12:21:39 +0200
 img-name: greeting.jpg
 ---
