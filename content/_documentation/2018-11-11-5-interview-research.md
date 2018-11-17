@@ -17,7 +17,9 @@ This week I took a closer look on the websites I chose as base for my platform. 
 ![Couchsurfing]({{'/assets/img/5h.jpg' | relative_url}})
 
 
-**Research on Users...** 
+**Define the content for the Platform** 
 
-coming soon ...
+By going through website concepts and talking to people more and more ideas came to my mind. Especially about possibilities the platform should offer the user later. With the following overview I tried to structure these thoughts about what content would be interesting to have.
+
+![Content]({{'/assets/img/5content.png' | relative_url}})
 
