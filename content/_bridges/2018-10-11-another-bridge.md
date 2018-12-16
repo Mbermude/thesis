@@ -2,7 +2,7 @@
 layout: bridge
 title:  "Guacamole Recipe"
 date:   2018-10-11 12:21:39 +0200
-img-name: guacamole.jpg
+img-name: guacamoleplay.jpg
 ---
 Are you also that kind of person that fell in love with Avocados? Then this recipe is especially for you!  
 
